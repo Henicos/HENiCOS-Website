@@ -366,7 +366,7 @@ footer a {
 /*          1800px           */
 
 
-@media screen and ( max-width: 1600px) {
+@media screen and ( max-width: 1300px) {
 
 
     .contact-button-nav {
@@ -385,7 +385,7 @@ footer a {
 /*          1200px           */
 
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1000px) {
 
 
         h2 {
@@ -603,7 +603,7 @@ footer a {
 /*           500px          */
 
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 480px) {
 
             header::before {
                 background: url(../assets/Images/Images-background-responsive-compressed/Backgroung-top-750.webp) center/cover no-repeat;
