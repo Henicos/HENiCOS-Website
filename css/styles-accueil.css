@@ -173,7 +173,7 @@ h4 {
 }
                            
 #creations::before {
-    background: url(/assets/Images/Images-background-responsive-compressed/Background-bottom-1920.webp) center/cover no-repeat;
+    background: url(../assets/Images/Images-background-responsive-compressed/Background-bottom-1920.webp) center/cover no-repeat;
     content: "";
     position: absolute;
     top: 0;

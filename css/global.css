@@ -138,7 +138,7 @@ header {
 }
 
 header::before {
-    background: url(/assets/Images/Images-background-responsive-compressed/Backgroung-top-1920.webp) center/cover no-repeat;
+    background: url(../assets/Images/Images-background-responsive-compressed/Backgroung-top-1920.webp) center/cover no-repeat;
     content: "";
     position: absolute;
     top: 0;
@@ -606,7 +606,7 @@ footer a {
         @media screen and (max-width: 500px) {
 
             header::before {
-                background: url(/assets/Images/Images-background-responsive-compressed/Backgroung-top-750.webp) center/cover no-repeat;
+                background: url(../assets/Images/Images-background-responsive-compressed/Backgroung-top-750.webp) center/cover no-repeat;
             }
 
             h2 {
