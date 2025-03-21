@@ -1,0 +1,203 @@
+header {
+    height: 70vh; 
+
+}
+
+
+
+
+
+h1 {
+    font-size: 5rem;
+    margin: 0; 
+}
+
+
+h2 {
+    font-size: 3rem;
+    margin: 80px auto 0;
+}
+
+p {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.text-presentation {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#creations .curious {
+    font-size: 1.5rem;
+    text-indent: 0;
+}
+
+
+.contener-projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 150px;
+    margin: 200px auto 130px;
+    padding: 0;
+    width: 100vw;
+}
+
+.box-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    border: #505050 1.5px solid;
+    background: #0f0f0f;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(80, 80, 80, 1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top:30px
+}
+
+.box-up h4 {
+    margin: 0;
+    padding: 30px 0;
+    text-align: left;
+    width: 80%;
+}
+        
+.box-projet:hover {
+    transform: scale(1.05); 
+    box-shadow:
+    0px 0px 5px 3px rgba(230, 57, 70, 0.7) inset, 
+    0px 0px 15px 10px rgba(230, 57, 70, 0.7) inset, 
+    0px 0px 100px 20px rgba(230, 57, 70, 0.4);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #E63946;
+    font-weight: 400;
+}
+
+.box-img {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box-projet img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-projet p {
+    width: 100%;
+    padding: 0px 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .box-projet {
+        width: 400px;
+        height: auto;
+    }
+
+
+}
+
+
+    @media screen and (max-width: 500px) {
+
+
+
+                             /*                  HEADER                  */
+
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+            margin-top: 40px;
+            padding-left: 0;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+                             /*                  MAIN                 */
+
+
+        .portfolio-text {
+            width: 80%;
+            margin-top: 0;
+        }
+
+        .portfolio-text p {
+            margin: 0 auto;
+            font-size: 1rem;
+            text-indent: 40px;
+        }
+
+        .portfolio-text .curious {
+            font-size: 1.4rem;
+            text-indent:0;
+            text-align: center;
+            margin: 20px auto;
+            padding-bottom: 0;
+        }
+
+        .contener-projets {
+            margin : 60px auto;
+            gap: 60px;
+        }
+
+        .box-projet {
+            width: 300px;
+            height: 450px;
+        }
+
+        .box-up {
+            margin:0;
+        }
+
+        .title {
+            font-size: 2rem;
+        }
+
+        .box-up .box-img {
+            height: 140px;
+            position: center;
+        }
+
+        .portfolio-text {
+            width:100%;
+        }
+
+        .box-projet p {
+            text-indent: 40px;
+            font-size: 0.8rem;
+            margin: 20px auto;
+        }
+
+    }

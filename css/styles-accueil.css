@@ -1,0 +1,733 @@
+
+             /*                  HERO                  */
+
+
+h1 {
+    font-size: 3rem;
+    margin: 6vh auto 0;
+    padding: 0px;
+    color: #E63946;
+    transform-origin: center bottom;
+    transform: perspective(500px) rotateX(30deg) scaleY(2);
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 100px auto 50px;
+    padding: 0 50px;
+    opacity: 0.9;
+    
+}
+
+h3 {
+    margin: 50px 80px  ;
+    font-size: 4.5rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+    margin: 100px 200px 150Px;
+}
+
+
+
+
+             /*                  HERO                  */
+
+            
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    width: 100%;    
+    height: 100%;             
+    text-align: center;
+    margin-top: 0; 
+
+}
+
+
+
+.logo-large {
+    width: 70vw; 
+    height: auto;
+    padding: 80px 0; 
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.logo-large:hover {
+    transform: scale(1.1); 
+
+}
+
+.text-presentation {
+    padding:0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+                            /*                   MAIN                       */
+
+
+            /*                 ABOUT HENiCOS         (futur animation JS)        */
+
+
+.box-about-henicos {
+    width: 80%;
+    max-width: 1650px; 
+    margin: 20px auto 200px;
+    padding: 0;
+}
+
+.box-about-henicos p {
+    text-align: justify;
+    margin: 0;
+}
+
+
+             /*                 MON PROFIL                 */
+
+
+#profil {
+    position: relative;
+ }
+
+#profil::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(15, 15, 15, 1), rgba(80, 80, 80, 1)); 
+    z-index: -1;
+}
+ 
+#profil .link-underline {
+    font-weight: 800;
+}
+
+#profil .link-underline::after {
+    height : 3px;
+}
+
+.box-profil {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 50px;
+    width: 80%;
+    height: auto;
+    align-items: start; 
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding: 50px 0 150px;
+}
+
+.photo-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.photo-profil img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 1);
+}
+
+.contact-button-profil {
+    margin: 70px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.box-profil p {
+    padding-top: 0;
+    margin-top: 0px;
+} 
+
+.curious {
+    display: block;
+    text-indent: 0 ;
+    text-align: center;
+}
+
+
+             /*                    MES CRÉATIONS                      */
+                       
+                       
+#creations {
+    position: relative; 
+    overflow: hidden; 
+    
+}
+                           
+#creations::before {
+    background: url(/assets/Images/Images-background-responsive-compressed/Background-bottom-1920.webp) center/cover no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    opacity: 0.2;  
+    z-index: -1; 
+}
+
+.text-presentation {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#creations .curious {
+    font-size: 1.5rem;
+}
+
+.contener-projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 150px;
+    margin: 200px auto 130px;
+    padding: 0;
+    width: 100vw;
+}
+
+.box-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    border: #505050 1.5px solid;
+    background: #0f0f0f;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(80, 80, 80, 1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top:30px
+}
+
+.box-up h5 {
+    margin: 0;
+    padding: 30px 0;
+    text-align: left;
+    width: 80%;
+}
+        
+.box-projet:hover {
+    transform: scale(1.05); 
+    box-shadow:
+    0px 0px 5px 3px rgba(230, 57, 70, 0.7) inset, 
+    0px 0px 15px 10px rgba(230, 57, 70, 0.7) inset, 
+    0px 0px 100px 20px rgba(230, 57, 70, 0.4);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #E63946;
+    font-weight: 400;
+}
+
+.box-img {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box-projet img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-projet p {
+    padding: 0px 40px;
+}
+
+.plus-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto; 
+    text-align: center;
+    padding: 15px 30px;
+}
+
+
+                /*                   MES CAPACITÉS              */
+
+
+         /*         CRÉER UN CONCEPT MODERNE ET UNIQUE          */
+
+
+#capacities {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+#capacities::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(15, 15, 15, 1), rgba(80, 80, 80, 1)); 
+    z-index: -1;
+}
+
+.box-capacities{  
+    display:grid;
+    grid-template-columns: 1fr, 3fr, 3fr;
+    grid-auto-rows: auto;
+    margin: 200px auto;
+    padding: 30px 0;
+    max-width: 1600px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background: #0F0F0F;
+    border: #505050 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0F0F0F ;
+}
+
+.box-icon {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center;    
+    height: 100%;
+}
+
+#capacities p {
+    padding-bottom: 0;
+}
+
+.box-capacities ul {
+    list-style-type: none; 
+    padding: 40px 0 0; 
+    margin: 0; 
+    max-width: 500px;
+}
+
+.box-capacities li {
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+
+.box-capacities h5 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.capacity{
+    min-width: 400px;
+    margin: 60px 0;
+}
+
+.one {
+    margin-left: 40px;
+    grid-column: 1/2;
+    grid-row: span 2;
+}
+
+.two{
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+} 
+
+.three {
+    grid-column: 3/4 ;
+    grid-row: 1/2;
+} 
+
+.four {
+    grid-column: 2/3 ;
+    grid-row: 2/3;  
+}
+
+.five {
+    grid-column: 3/4 ;
+    grid-row: 2/3;
+}
+
+
+                /*          CRÉER UNE CHARTE GRAPHIQUE          */
+
+
+#flipbook {
+    display: block;
+    width: 1600px;
+    height: 570px; 
+    margin: 0px auto;
+    z-index: 1;
+}
+
+.flipbook-img {
+    display: none;
+    position: absolute;
+}
+
+.background-flipbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F; 
+    padding: 20px;
+    border: #505050 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0F0F0F;
+    width: 90%; 
+    height: auto; 
+    margin: 150px auto;
+    text-align: center; 
+}
+
+.background-flipbook .curious {
+    margin: 50px auto 30px;
+    font-size: 2.5rem;
+}
+
+.background-flipbook a {
+    font-size: 2rem;
+    display: inline-block; 
+    margin: 50px auto;
+    z-index: 0;
+}
+
+.box-flipbook {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+.arrow {
+    font-size: 40px;
+    z-index: 900;
+    width: 50px;
+    margin: 20px;
+    display: inline-block;  /* Permet d’appliquer transform */
+    animation: moveArrow 1s infinite; /* Animation qui dure 1s et qui boucle en continu */
+}
+
+.arrow-top {
+    top: 10px; 
+}
+
+.arrow-bottom {
+    bottom: 10px;
+}
+
+@keyframes moveArrow {
+    0%, 100% { transform: translateX(0); }  /* Position initiale */
+    50% { transform: translateX(10px); }    /* Déplacement de 10px vers la droite */
+}
+
+.box-flipbook:hover .arrow {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+
+@media screen and (max-width: 1800px) {
+
+
+    
+                           /*                   MAIN                       */
+
+
+    .text-presentation {
+        width: 70vw;
+    }
+
+
+        /*                 MON PROFIL                 */
+
+        
+
+    .box-profil {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+        align-items: start; 
+        max-width: 1600px; 
+        margin: 0 auto;
+    }
+    
+    
+                    /*                    MES CRÉATIONS                      */
+                            
+
+    .box-projet {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        height: 700px;
+    }
+    
+    .box-projet p {
+        text-indent: 80px;
+        font-size: 1.4rem;
+    }
+    
+    
+                    /*                   MES CAPACITÉS              */
+    
+    
+    
+                /*         CRÉER UN CONCEPT MODERNE ET UNIQUE          */
+
+    
+    .box-capacities{  
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 100px;
+        max-width: 1000px;
+    }
+
+    .box-capacities .box-icon {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 40px;
+        gap:50px;
+    }
+
+    .one {
+        margin-left: 0;
+    }
+    
+                    /*          CRÉER UNE CHARTE GRAPHIQUE          */
+    
+
+    .box-flipbook {
+        display : none;
+    }
+
+    .flipbook-img {
+        display: block;
+        position: relative;
+    }
+
+    .background-flipbook a {
+        font-size: 2rem;
+        display: inline-block; 
+        margin: 90px auto;
+    }
+    
+    .background-flipbook .curious {
+        margin: 100px auto;
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .logo-large {
+        margin:15vh auto 4vh;
+        padding:0;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding: 0 50px;
+        margin: 4vh auto 15vh;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+        h1 {
+            font-size: .8rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin: 6vh auto;
+        }
+
+        p{
+            font-size: 1rem;
+            text-indent: 40px;
+        }
+
+
+        .logo-large {
+            width: 80vw; 
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .button {
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+
+                            /*                   MAIN                       */
+
+
+                    /*                   ABOUT HENiCOS  (futur animation JS */
+
+
+        .box-about-henicos {
+        margin-bottom: 40px;
+        }
+
+
+                    /*                   MON PROFIL                 */
+
+        .box-profil .curious {
+            display: none; 
+        }
+
+        .box-profil {
+            padding-bottom: 0;
+        }
+
+
+
+                    /*                   MES CRÉATIONS              */
+
+
+        .contener-projets {
+            margin : 60px auto;
+            gap: 60px;
+        }
+
+        .box-projet {
+            width: 300px;
+            height: 450px;
+
+        }
+
+        .box-up {
+            margin:0;
+        }
+
+        .title {
+            font-size: 2rem;
+        }
+
+        .box-up .box-img {
+            height: 140px;
+            position: center;
+        }
+
+        .box-up .description {
+            margin: 20px auto;
+        }
+
+        .box-projet p {
+            text-indent: 40px;
+            font-size: 0.8rem;
+        }
+
+                    /*                   MES CAPACITÉS              */
+
+
+            /*         CRÉER UN CONCEPT MODERNE ET UNIQUE          */
+
+
+        #capacities {
+            padding-bottom: 40px;
+        }
+
+        .box-capacities {
+            margin: 60px auto;
+            width: 90vw;
+        }
+
+        .box-capacities{  
+            margin-bottom: 0;
+            padding: 30px 0;
+        }
+    
+        .box-capacities .box-icon {
+            width: 90%;
+            margin: 40px;
+            gap:80px;
+        }
+
+        .capacity {
+            margin: 30px;
+        }
+    
+        .capacity h5 {
+            font-size: 1.3rem;
+        }
+
+        .capacity ul {
+            padding-top: 20px;
+        }
+
+        .capacity li {
+            font-size: 1rem;
+            padding: 5px 0;
+        }
+
+
+            /*          CRÉER UNE CHARTE GRAPHIQUE          */
+
+
+        .background-flipbook {
+            margin: 60px auto 30px;
+            padding-bottom: 0;
+        }
+
+        .background-flipbook .curious {
+            font-size: 1rem;
+            margin: 40px auto;
+        }
+
+        .background-flipbook img {
+            width: 60vw;
+        }
+
+        .background-flipbook a {
+            font-size: 1rem !important;
+            margin: 20px auto 30px;
+        }
+}
