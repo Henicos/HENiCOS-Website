@@ -3,7 +3,7 @@
 
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 6vh auto 0;
     padding: 0px;
     color: #E63946;
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 100px auto 50px;
     padding: 0 50px;
     opacity: 0.9;
@@ -21,11 +21,11 @@ h2 {
 
 h3 {
     margin: 50px 80px  ;
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     margin: 100px 200px 150Px;
 }
 
@@ -50,9 +50,9 @@ h4 {
 
 
 .logo-large {
-    width: 70vw; 
+    width: 50vw; 
     height: auto;
-    padding: 80px 0; 
+    padding: 200px 0 100px; 
     transition: transform 0.3s ease-in-out;
     
 }
