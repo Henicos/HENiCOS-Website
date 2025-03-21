@@ -3,7 +3,7 @@
 
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin: 6vh auto 0;
     padding: 0px;
     color: #E63946;
@@ -581,12 +581,23 @@ h4 {
 
 
         h1 {
-            font-size: .8rem;
+            font-size: 1.2rem;
+        
         }
 
         h2 {
             font-size: 1.4rem;
             margin: 6vh auto;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            margin-left: 30px;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin: 30px 0 50px 50px;
         }
 
         p{

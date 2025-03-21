@@ -30,7 +30,7 @@ h1, h2, h3, h4{
 }
 
 h1 {
-    font-size: 5rem;
+    /* font-size: 70%; */
     margin: 100px auto 50px;
     padding: 0 50px;
     opacity: 0.9;
@@ -366,7 +366,7 @@ footer a {
 /*          1800px           */
 
 
-@media screen and ( max-width: 1300px) {
+@media screen and ( max-width: 1700px) {
 
 
     .contact-button-nav {
@@ -609,7 +609,7 @@ footer a {
                 background: url(../assets/Images/Images-background-responsive-compressed/Backgroung-top-750.webp) center/cover no-repeat;
             }
 
-            h2 {
+            /* h2 {
                 font-size: 1.5rem;
                 margin: 60px auto;
                 padding: 0 20px;
@@ -625,7 +625,7 @@ footer a {
             h4 {
                 font-size: 1.3rem;
                 margin: 40px 60px 60px;
-            }
+            } */
             
             img {
                 max-width: 100%;
