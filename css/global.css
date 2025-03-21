@@ -551,7 +551,7 @@ footer a {
 
         }
 
-        footer::after{
+        footer::before{
             background: url(../assets/Images/Images-background-responsive-compressed/Background-bottom-1024.webp) center/cover no-repeat;
         }
 
@@ -709,7 +709,7 @@ footer a {
 
             /*                      FOOTER                      */
 
-            footer::after{
+            footer::before{
                 background: url(../assets/Images/Images-background-responsive-compressed/Background-bottom-750.webp) center/cover no-repeat;
             }
 

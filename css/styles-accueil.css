@@ -97,7 +97,7 @@ h4 {
     position: relative;
  }
 
-#profil::after {
+#profil::before {
     content: "";
     position: absolute;
     top: 0;
@@ -654,6 +654,10 @@ h4 {
 
 
                     /*                   MES CRÉATIONS              */
+
+        #creations::before {
+            opacity: 0.1;
+        }
 
 
         .contener-projets {
