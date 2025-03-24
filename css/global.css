@@ -356,10 +356,10 @@ footer a {
                             /*                 MEDIA QUERIES               */
 
 
-/*          1700px           */
+/*          1500px           */
 
 
-@media screen and ( max-width: 1700px) {
+@media screen and ( max-width: 1500px) {
 
 
     .contact-button-nav {
@@ -371,11 +371,11 @@ footer a {
         display: block;
         margin-top: 60px;
         ;
-    }
+    }   
 
 }
 
-/*          1200px           */
+/*          1150px           */
 
 
     @media screen and (max-width: 1150px) {

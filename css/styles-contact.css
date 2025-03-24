@@ -43,6 +43,10 @@ h3 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.formulaire p {
+    text-indent: 0px;
+}
+
 .formulaire, .carte {
     flex: 1;
     overflow: hidden;
@@ -151,7 +155,6 @@ button {
 
             .formulaire p {
                 font-size: 1rem;
-                text-indent: 0px;
                 margin-bottom: 20px;
             }
 
