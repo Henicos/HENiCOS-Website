@@ -1,32 +1,31 @@
 
              /*                  HERO                  */
-
-
+ 
 h1 {
-    font-size: 2rem;
-    margin: 6vh auto 0;
-    padding: 0px;
+    font-size: 3.7vw;
+    margin: 0;
+    padding: 1vh;
     color: #E63946;
     transform-origin: center bottom;
     transform: perspective(500px) rotateX(30deg) scaleY(2);
 }
 
 h2 {
-    font-size: 5rem;
-    margin: 100px auto 50px;
-    padding: 0 50px;
+    font-size: 5vw;
+    margin: 6vh auto 0;
     opacity: 0.9;
-    
+    padding: 0 10vh;
 }
 
 h3 {
-    margin: 50px 80px  ;
-    font-size: 4rem;
+    margin: 4vw;
 }
 
 h4 {
-    font-size: 3rem;
-    margin: 100px 200px 150Px;
+    width: 80%;
+    font-size: 3.3vw;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 
@@ -43,16 +42,16 @@ h4 {
     width: 100%;    
     height: 100%;             
     text-align: center;
-    margin-top: 0; 
+    margin-top: 10vh; 
 
 }
 
 
 
 .logo-large {
-    width: 50vw; 
-    height: auto;
-    padding: 200px 0 100px; 
+    width: 80vw; 
+    margin-bottom: 2vh; 
+    padding-bottom: 2vh; 
     transition: transform 0.3s ease-in-out;
     
 }
@@ -63,7 +62,7 @@ h4 {
 }
 
 .text-presentation {
-    padding:0;
+    padding: 10vh 0 0;
     width: 50%;
     margin: 0 auto;
 }
@@ -125,7 +124,7 @@ h4 {
     align-items: start; 
     max-width: 1600px; 
     margin: 0 auto;
-    padding: 50px 0 150px;
+    padding: 10vh 0 150px;
 }
 
 .photo-profil {
@@ -146,7 +145,7 @@ h4 {
 }
 
 .contact-button-profil {
-    margin: 70px auto;
+    margin: 40px auto 0;
     width: fit-content;
     text-align: center;
 }
@@ -160,6 +159,7 @@ h4 {
     display: block;
     text-indent: 0 ;
     text-align: center;
+    margin: 0 auto; 
 }
 
 
@@ -183,10 +183,10 @@ h4 {
     opacity: 0.2;  
     z-index: -1; 
 }
-
 .text-presentation {
     width: 50%;
     margin: 0 auto;
+    padding-top: 10vh;
 }
 
 #creations .curious {
@@ -302,7 +302,7 @@ h4 {
     grid-template-columns: 1fr, 3fr, 3fr;
     grid-auto-rows: auto;
     margin: 200px auto;
-    padding: 30px 0;
+    padding: 30px 10vw;
     max-width: 1600px;
     justify-items: center;
     align-items: center;
@@ -463,25 +463,18 @@ h4 {
     
                            /*                   MAIN                       */
 
-    h1 {
-        font-size: 2rem;
-        /* padding-top: ; */
-    }
 
-    .logo-large {
-        margin:15vh auto 4vh;
-        padding:0;
-    }
+ */
 
-    h2 {
+    /* h2 {
         font-size: 3rem;
         padding: 0 50px;
         margin: 4vh auto 15vh;
-    }
+    } */ 
 
-    h3 {
+    /* h3 {
         font-size: 2.5rem;
-    }
+    } */
 
     h4 { 
         font-size: 2rem;
@@ -491,7 +484,7 @@ h4 {
 
 
     .text-presentation {
-        width: 70vw;
+        width: 80%;
     }
 
 
@@ -590,32 +583,38 @@ h4 {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
 
 
         h1 {
-            font-size: 1.2rem;
-            
+            font-size: 2.8vw;
+            font-weight: 800;
+            opacity: 0.7;
         }
 
-        h2 {
-            font-size: 1.4rem;
-            margin: 6vh auto;
-        }
 
         h3 {
-            font-size: 1.6rem;
-            margin-left: 30px;
+            font-size: 6vw;
         }
 
         h4 {
+            width:80%;
+            font-size: 4vw;
+            margin: 5vh auto;
+        }
+
+        /* h4 {
             font-size: 1.2rem;
             margin: 30px 0 50px 50px;
-        }
+        }  */
 
         p{
             font-size: 1rem;
             text-indent: 40px;
+        }
+
+        .text-presentation {
+            padding:0;
         }
 
 
@@ -648,7 +647,7 @@ h4 {
         }
 
         .box-profil {
-            padding-bottom: 0;
+            padding: 0;
         }
 
 

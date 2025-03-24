@@ -15,18 +15,25 @@ window.addEventListener("scroll", function () {
 // Script pour le menu burger
 
 const hamMenu = document.querySelector('.ham-menu');
-
 const offScreenMenu = document.querySelector('.off-screen-menu');
-
 const nav = document.querySelector('.bloc-nav');
+
 
 hamMenu.addEventListener('click', () =>{
     hamMenu.classList.toggle('active');
     offScreenMenu.classList.toggle('active');
-
     nav.classList.toggle('hidden');
-
 })
+
+const menuLinks = document.querySelectorAll('.off-screen-menu a');
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        hamMenu.classList.remove('active');
+        offScreenMenu.classList.remove('active');
+        nav.classList.remove('hidden');
+    });
+});
 
 
 // Script pour le décalage des liens internes (profil et capacité)
@@ -36,7 +43,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault(); // Empêche le saut instantané par défaut
         let target = document.querySelector(this.getAttribute("href"));
         if (target) {
-            let offset = 200; // Décalage en pixels vers le bas
+            let offset = 100; // Décalage en pixels vers le bas
             let targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
             window.scrollTo({ top: targetPosition, behavior: "smooth" });
         }

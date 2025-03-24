@@ -17,15 +17,9 @@ header {
 }
 
 h1 {
+    width: 90%;
+    font-size: 5vw; 
     text-align: center;
-    margin: 0; 
-}
-
-
-h2 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin: 150px auto;
 }
 
 h3 {
@@ -36,8 +30,6 @@ h3 {
 .contact-button-nav {
     display: none;
 }
-
-
 
 .contact {
     display: flex;
@@ -159,7 +151,7 @@ button {
 
             .formulaire p {
                 font-size: 1rem;
-                text-indent: 40px;
+                text-indent: 0px;
                 margin-bottom: 20px;
             }
 
