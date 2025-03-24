@@ -567,7 +567,7 @@ h4 {
         h1 {
             font-size: 3.2vw;
             font-weight: 800;
-            opacity: 0.7;
+            opacity: 1;
             transform: perspective(500px) rotateX(30deg) scaleY(2);
         }
 
