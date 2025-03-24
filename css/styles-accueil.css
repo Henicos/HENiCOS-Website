@@ -2,17 +2,17 @@
              /*                  HERO                  */
  
 h1 {
-    font-size: 3.4vw;
+    font-size: 3vw;
     margin: 0;
-    padding: 1vh;
+    padding: 0;
     color: #E63946;
     transform-origin: center bottom;
-    transform: perspective(500px) rotateX(30deg) scaleY(2);
+    transform: perspective(500px) rotateX(30deg) ;
 }
 
 h2 {
     font-size: 4.2vw;
-    margin: 6vh auto 0;
+    margin: 2vh auto 0;
     opacity: 0.9;
     padding: 0 10vh;
 }
@@ -49,9 +49,7 @@ h4 {
 
 
 .logo-large {
-    width: 70vw; 
-    margin-bottom: 2vh; 
-    padding-bottom: 2vh; 
+    width: 70vw;
     transition: transform 0.3s ease-in-out;
     
 }
@@ -464,18 +462,6 @@ h4 {
                            /*                   MAIN                       */
 
 
- */
-
-    /* h2 {
-        font-size: 3rem;
-        padding: 0 50px;
-        margin: 4vh auto 15vh;
-    } */ 
-
-    /* h3 {
-        font-size: 2.5rem;
-    } */
-
     h4 { 
         font-size: 2rem;
         margin: 70px 40px 70px 140px ;   
@@ -574,22 +560,15 @@ h4 {
 
 }
 
-@media screen and (max-width: 1600px) {
 
- 
-
-
-
-}
-
-
-@media screen and (max-width: 900px) {
+    @media screen and (max-width: 900px) {
 
 
         h1 {
-            font-size: 2.8vw;
+            font-size: 3.2vw;
             font-weight: 800;
             opacity: 0.7;
+            transform: perspective(500px) rotateX(30deg) scaleY(2);
         }
 
 
@@ -620,6 +599,7 @@ h4 {
 
         .logo-large {
             width: 80vw; 
+            padding-bottom: 2vh;
             height: auto;
             transition: transform 0.3s ease-in-out;
         }
@@ -758,3 +738,18 @@ h4 {
             margin: 20px auto 30px;
         }
 }
+
+
+            @media screen and (max-width: 500px) {
+                
+                h1 {
+                    font-size: 2.8vw;
+                }
+
+                h2 {
+                    font-size: 6vw;
+                    margin-top: 6vh;
+                }
+
+        
+            }    

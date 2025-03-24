@@ -356,10 +356,7 @@ footer a {
                             /*                 MEDIA QUERIES               */
 
 
-/*          1500px           */
-
-
-@media screen and ( max-width: 1500px) {
+@media screen and ( max-width: 1730px) {
 
 
     .contact-button-nav {
@@ -374,8 +371,6 @@ footer a {
     }   
 
 }
-
-/*          1150px           */
 
 
     @media screen and (max-width: 1150px) {
